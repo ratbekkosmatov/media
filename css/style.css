@@ -1,0 +1,239 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+a {
+  text-decoration: none;
+}
+.container {
+    width: 1140px;
+    margin: 0 auto;
+}
+body {
+    font-family: 'Roboto',sans-serif;
+}
+#navbar {
+    padding: 15px 0;
+}
+.navbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    animation: ani 1s alternate linear;
+}
+@keyframes ani {
+    0%{
+        transform: translateY(-400px);
+    }
+    100%{
+        transform: translateY(0);
+    }
+}
+.navbar-nav a {
+
+    font-style: normal;
+    font-weight: 400;
+    font-size: 18px;
+    color: rgba(31, 46, 53, 0.8);
+    padding: 0 15px;
+}
+.navbar-nav select {
+    font-style: normal;
+    font-weight: 400;
+    font-size: 18px;
+    color: rgba(31, 46, 53, 0.8);
+    padding: 0 15px;
+    background: transparent;
+    border: none;
+    outline: none;
+}
+.navbar div{
+    display: flex;
+    align-items: center;
+}
+.navbar div img {
+    padding: 0 15px;
+}
+.hero-block {
+    animation: anim .5s alternate;
+}
+.hero-block h1 {
+    font-family: 'Roboto', sans-serif;
+    font-weight: 700;
+    font-size: 48px;
+    color: #1F2E35;
+    margin-bottom: 40px;
+}
+.hero-block h1 span {
+    font-family: 'Roboto',sans-serif;
+    font-weight: 700;
+    font-size: 48px;
+    color: orangered;
+}
+.hero-block p {
+    font-style: normal;
+    font-weight: 400;
+    font-size: 20px;
+    color: #30444E;
+    margin-bottom: 20px;
+}
+.hero-block button {
+    width: 161px;
+    height: 53px;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 20px;
+    background: #EE4248;
+    box-shadow: 1px 2px 4px rgba(0, 0, 0, 0.25);
+    border-radius: 4px;
+    transition: .4s;
+    border: none;
+}
+.hero-block button:hover {
+    transform: scale(1.1);
+}
+.hero {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding-top: 100px;
+}
+.hero img {
+    animation: anime .5s alternate linear;
+}
+.about {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding-top: 100px;
+}
+.about-block h1 {
+    font-style: normal;
+    font-weight: 700;
+    font-size: 32px;
+    color: #1F2E35;
+    margin-bottom: 40px;
+    padding-top: 80px;
+}
+.about-block h1 span {
+    color: orangered;
+}
+.about-block {
+    width: 600px;
+}
+.about-block p {
+    font-style: normal;
+    font-weight: 400;
+    font-size: 18px;
+    color: #30444E;
+    margin-bottom: 50px
+}
+.about-block p span {
+    color: orangered;
+}
+#product {
+    padding-top: 100px;
+}
+.product {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+
+}
+.product-title {
+    font-family: 'Roboto',sans-serif;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 32px;
+    text-align: center;
+    color: #000000;
+    padding-bottom: 50px;
+}
+.product-block {
+    width: 320px;
+    height: 400px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: start;
+}
+.product-block h1 {
+    font-style: normal;
+    font-weight: 500;
+    font-size: 28px;
+    color: #EE4248;
+}
+.product-block p {
+    font-style: normal;
+    font-weight: 400;
+    font-size: 18px;
+    color: #30444E;
+    transition: .4s;
+}
+.product-block button {
+    width: 119px;
+    height: 42px;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 18px;
+    flex: none;
+    order: 0;
+    flex-grow: 0;
+    background: #EE4248;
+    box-shadow: 1px 1px 2px rgba(0, 0, 0, 0.25);
+    border-radius: 4px;
+    transition: .4s;
+    border: none;
+}
+.product-block button:hover{
+    transform: scale(1.1);
+}
+.contact {
+    display: flex;
+    width: 700px;
+    padding-top: 60px;
+    justify-content: space-between;
+}
+.contact div {
+    display: flex;
+    flex-direction: column;
+    align-items: start;
+}
+.contact div h1 {
+    font-style: normal;
+    font-weight: 500;
+    font-size: 24px;
+    color: #263238;
+    padding-bottom: 10px;
+}
+.contact div p {
+    font-style: normal;
+    font-weight: 500;
+    font-size: 18px;
+    color: #263238;
+    line-height: 25px;
+}
+.contact div a {
+    padding: 15px 0;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 5px;
+    color: #263238;
+}
+#footer {
+    padding: 15px 0;
+    background: orangered;
+    margin-top: 30px;
+}
+.footer {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+.footer h1 {
+    font-style: normal;
+    font-weight: 400;
+    font-size: 18px;
+    color: #FFFFFF;
+}
